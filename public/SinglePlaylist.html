@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sing Along Playlist</title>
+    <link rel="stylesheet" href="SinglePlaylist.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <!-- NAVIGATION SECTION -->
+    <div class="navigation">
+      <nav class="navigation-bar">
+        <!-- MUSIC PLAYER LOGO AND NAME-->
+        <div class="title">
+          <!-- LOGO -->
+
+          <div class="logo">
+            <!-- clicking on logo brings the playlist back to the main home page -->
+            <a href="index.html">
+              <img
+                src="media/singAlong.png"
+                height="20%"
+                width="20%"
+            /></a>
+          </div>
+          <!-- WEBSITE NAME -->
+          <div class="websie-name">
+            <h1 style="color: whitesmoke;">SingAlong</h1>
+          </div>
+        </div>
+
+        <!-- FAVOURITES -->
+
+        <div class="favorite" id="favs">
+          <h3>Favourites</h3>
+        </div>
+        <!-- SEARCH BAR AND SEARCH BUTTON -->
+
+        <div class="search">
+          <form action="#">
+            <input type="text" placeholder=" Search..." name="search" />
+            <!-- BUTTON FOR SEARCH BAR -->
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <!-- NOTIFICATION BELL -->
+        <div class="notification-bell">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1827/1827370.png"
+            height="20px"
+            width="20px"
+          />
+        </div>
+
+        <!-- LOGIN OR PROFILE PICTURE -->
+        <div class="login">
+          <!-- CLICKING ON THE PROFILE PICTURE DROPDOWN FOR SIGN-UP AND LOGIN APPEARS -->
+          <label for="SignUp">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1177/1177568.png"
+              height="30px"
+              width="30px"
+            />
+          </label>
+          <!-- DROPDOWN -->
+          <input type="checkbox" id="SignUp" />
+          <div class="login-dropdown">
+            <div class="item">
+              <p>
+                <a href="#">Login</a>
+              </p>
+            </div>
+            <hr />
+            <div class="item">
+              <p>Sign-Up</p>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- MAIN CODE WHICH CONTAINS TWO ASIDE SECTIONS -->
+
+    <main>
+      <!-- 1st aside section -->
+      <aside class="aside section-1">
+        <!-- for the main jumbotron -->
+        <div class="main-song">
+          <!-- MAIN PIC  -->
+          <div class="main-image">
+            <!-- image added via css file -->
+          </div>
+
+          <!-- SONG CONTENT AND DETAILS -->
+
+          <div class="song-details">
+            <div class="song-description">
+              <div class="Artist-name">
+                <h1>All Too Well</h1>
+              </div>
+              <div class="followers">
+                56,785,121 Monthly Listerners
+              </div>
+              <p class="artist">Taylor Swift</p>
+              <p class="about">
+                Taylor Swift is an American pop and country music
+                singer-songwriter. Five of her songs, including “Shake It Off”
+                (2014), “Blank Space” (2014), and “Look What You Made Me Do”
+                (2017), topped the Billboard Hot 100. She received a number of
+                awards for her music.
+              </p>
+            </div>
+            <!-- play and follow button -->
+            <div class="play-follow">
+              <div class="buttons">
+                <button>Play All</button>
+                <button>Follow</button>
+              </div>
+              <p>206 Tracks|25 Albums</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- PLAYLIST PART -->
+        <div class="playlist-content">
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div id="song-image">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/All_Too_Well_short_film_poster.jpg/220px-All_Too_Well_short_film_poster.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Enchanted</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              10:13
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://static.stereogum.com/uploads/2022/02/The-Joker-And-The-Queen-1644516733-1000x1000.jpeg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:05
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://www.cnet.com/a/img/X_ufLJTDh1QXVS1ZImG9M5aXM9g=/940x0/2021/09/17/415f1701-6ef5-4c15-a2a7-8fbc8b16e6cf/taylor-swift.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Fearless</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:40
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://i1.sndcdn.com/artworks-000101026483-nlkv9s-t500x500.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:51
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://img.buzzfeed.com/buzzfeed-static/static/2018-04/16/10/asset/buzzfeed-prod-web-04/sub-buzz-16652-1523887341-1.jpg?output-quality=auto&output-format=auto&downsize=640:*"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Enchanted</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              5:52
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://target.scene7.com/is/image/Target/GUEST_8714fa42-7c2c-41d7-80ae-43d6f04aa89f?wid=488&hei=488&fmt=pjpeg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:41
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://i1.sndcdn.com/artworks-000038140006-wopgzj-t500x500.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Enchanted</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:39
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/9/9b/Taylor_Swift_Feat._Kendrick_Lamar_-_Bad_Blood_%28Official_Single_Cover%29.png"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Bad Blood</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:39
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://i.ytimg.com/vi/9qUmyf9U7To/maxresdefault.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Fearless</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:49
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              4:08
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/All_Too_Well_short_film_poster.jpg/220px-All_Too_Well_short_film_poster.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              10:13
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="image-and-details">
+              <div>
+                <i class="fa-solid fa-music"></i>
+              </div>
+              <div>
+                <img
+                  src="https://i1.sndcdn.com/artworks-000101026483-nlkv9s-t500x500.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <h5>Lover</h5>
+                <p>Taylor Swift</p>
+              </div>
+            </div>
+
+            <div class="duration">
+              3:51
+            </div>
+            <div class="actions">
+              <div>
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ASIDE SECTION -2 -->
+      <aside class="aside section-2">
+        <!-- SIMILAR-ARTISTS -->
+        <div class="similar">
+          <!-- section heading, which also contains the view all button -->
+          <div class="section-heading">
+            <h1>Similar Artists</h1>
+            <div class="view-all-button">
+              View All
+            </div>
+          </div>
+          <!-- list is the container for the contents of similar artists -->
+          <div class="list">
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img
+                  src="https://i1.sndcdn.com/artworks-C1tNnztxmbHzdWuF-RWMd2Q-t500x500.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  It'll be okay
+                </h5>
+                <p class="author-name">
+                  Shawn Mendes
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  3:53
+                </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img
+                  src="https://i1.sndcdn.com/artworks-nsOjcB1W3Ay885KI-rAIodg-t500x500.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  Light Switch
+                </h5>
+                <p class="author-name">
+                  Charlie Pruth
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  3:25
+                </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img
+                  src="https://www.udiscovermusic.com/wp-content/uploads/2021/05/Olivia-Rodrigo-Good-4-U-1000x600.jpg"
+                />
+                <div class="play-button">
+                  <i
+                    class="fa-solid fa-play"
+                    style="width: 50%; height: 50%; display: inline-block;"
+                  ></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  good 4 u
+                </h5>
+                <p class="author-name">
+                  Olivia Rodrigo
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  2:58
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RECENTLY PLAYED -->
+        <div class="similar">
+          <!-- section headings, which also contains the view all button -->
+          <div class="section-heading">
+            <h1>Recently Played</h1>
+            <div class="view-all-button">
+              View All
+            </div>
+          </div>
+          <!-- again list is a container for all the contents of recently played section -->
+          <div class="list">
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  01
+                </div>
+                <div>
+                  <img
+                    src="https://i1.sndcdn.com/artworks-000631066504-9c4pnb-t500x500.jpg"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Memories
+                  </h5>
+                  <p>
+                    Marron 5
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  02
+                </div>
+                <div>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/b/bf/Watermelon_Sugar_-_Harry_Styles.png"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    WaterMelon Sugar
+                  </h5>
+                  <p>
+                    Harry Styles
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  03
+                </div>
+                <div>
+                  <img
+                    src="https://i1.sndcdn.com/artworks-000581461793-9q7bxf-t500x500.jpg"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Bad Guy
+                  </h5>
+                  <p>
+                    Billie Eilish
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  04
+                </div>
+                <div>
+                  <img src="https://i.redd.it/jm6hwapiiuu61.png" />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Save your tears
+                  </h5>
+                  <p>
+                    The Weeknd
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  05
+                </div>
+                <div>
+                  <img
+                    src="https://i.scdn.co/image/ab67616d0000b273318443aab3531a0558e79a4d"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Message In A Bottle
+                  </h5>
+                  <p>
+                    Taylor Swift
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  06
+                </div>
+                <div>
+                  <img
+                    src="https://images.genius.com/b826bffa6a542a466c2143f4702b9f25.1000x1000x1.png"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Male Fantasy
+                  </h5>
+                  <p>
+                    Billie Eilish
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  07
+                </div>
+                <div>
+                  <img
+                    src="https://images.genius.com/ef62c92b3e328a3a5b3ff2383eca6b6c.1000x1000x1.png"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    I Drink Wine
+                  </h5>
+                  <p>
+                    Adele
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  08
+                </div>
+                <div>
+                  <img
+                    src="https://pagalnew.com/coverimages/Chitta-Shiddat-500-500.jpg"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Chitta
+                  </h5>
+                  <p>
+                    Shiddat
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="playlist-item">
+              <div class="image-and-details">
+                <div>
+                  09
+                </div>
+                <div>
+                  <img
+                    src="https://1.bp.blogspot.com/-HQGvruPafS8/YQgMdVBLoHI/AAAAAAAAAlc/RrajDInazOIkp3aN3SK6gPfqck_UchGQACLcBGAsYHQ/s676/Screenshot_2021-08-02-20-46-38-00.jpg"
+                  />
+                  <div class="play-button">
+                    <i
+                      class="fa-solid fa-play"
+                      style="width: 50%; height: 50%; display: inline-block;"
+                    ></i>
+                  </div>
+                </div>
+                <div>
+                  <h5>
+                    Raataan Lambiyan
+                  </h5>
+                  <p>
+                    Shershaah
+                  </p>
+                </div>
+              </div>
+              <div class="actions">
+                <div>
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <!-- DETAILS FOR CURRENT ACTIVE SONG -->
+
+      <div class="Song-playing">
+        <!-- SONG POSTER -->
+
+        <div id="song-poster">
+          <img src="https://flxt.tmsimg.com/assets/p3588673_p_v10_aa.jpg" />
+        </div>
+
+        <!-- SONG NAME AND THE ARTIST -->
+
+        <div class="Song-description">
+          <div>
+            Iktara
+          </div>
+          <div>
+            Amit Trivedi
+          </div>
+        </div>
+
+        <!-- LIKE AND REMOVE OPTIONS ON HOVERING OVER HEART IT CHANGES TO RED COLOR AND ON HOVERING OVER REMOVE IT CHANGES TO GREY -->
+
+        <div class="like-and-remove">
+          <span>
+            <i class="fa-solid fa-heart"></i>
+          </span>
+          <span>
+            <i class="fa-solid fa-circle-minus"></i>
+          </span>
+        </div>
+      </div>
+
+      <!-- MUSIC PLAYER CONTROLS -->
+
+      <div class="music-player">
+        <div class="controls">
+          <div>
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-backward-step"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-pause"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-forward-step"></i>
+          </div>
+        </div>
+
+        <!-- SLIDER FOR DURATION OF SONG -->
+
+        <div id="slider">
+          <!-- CURRENT TIME -->
+
+          <div class="time">
+            1:11
+          </div>
+
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+
+          <!-- DURATION OF SONG -->
+          <div class="time">
+            2:32
+          </div>
+        </div>
+      </div>
+
+      <!-- OTHER CONTROLS -->
+      <div class="more-controls">
+        <div>
+          <i class="fa-solid fa-list-music"></i>
+        </div>
+        <div>
+          <i class="fas fa-laptop"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-microphone-stand"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <!-- VOLUME CONTROLS -->
+        <div class="slidecontainer" style="width: 30%;">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            id="myRange"
+            style="margin-top: 0px;"
+          />
+        </div>
+        <div>
+          <i class="fas fa-expand-alt"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
